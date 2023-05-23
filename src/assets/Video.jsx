@@ -4,7 +4,7 @@ import VideoCar from '../assets/luxuryCar.mp4'
 const Video = () => {
     return (
         <div>
-            <video width="100%" height="100%" controls>
+            <video width="100%" height="100%" controls autoplay mute loop>
                 <source src={VideoCar} type="video/mp4" />
             </video>
         </div>
